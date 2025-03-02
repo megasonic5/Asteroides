@@ -1,4 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:padding="30dip" tools:context=".Asteroides">
     <TextView style="TextoAsteroides" android:text="@string/tituloAplicacion"/>
 	<Button android:id="@+id/Button01" style="TextoAsteroides.Botones" android:text="@string/Arrancar"/>
+    <Button android:id="@+id/Button02" style="TextoAsteroides.Botones" android:text="@string/Configurar"/>
+    <Button android:id="@+id/Button03" style="TextoAsteroides.Botones" android:text="@string/Acercade"/>
+    <Button android:id="@+id/Button04" style="TextoAsteroides.Botones" android:text="@string/Salir"/>
 </LinearLayout>
